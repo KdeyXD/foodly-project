@@ -1,0 +1,25 @@
+.navbar{
+    background-color: rgba(144, 238, 144, 0.6);
+}
+
+/* Mobile Navbar Styling */
+.mobile-navbar {
+  z-index: 1050;
+}
+.mobile-nav-link {
+  color: #6c757d;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.mobile-nav-link.active,
+.mobile-nav-link:focus,
+.mobile-nav-link:hover {
+  color: #198754;
+  background: rgba(25, 135, 84, 0.08);
+  border-radius: 12px;
+}
+@media (min-width: 992px) {
+  .mobile-navbar {
+    display: none !important;
+  }
+}

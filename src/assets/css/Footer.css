@@ -1,0 +1,47 @@
+/* Footer Section Styling */
+.footer-section {
+  /* background: #f8f9fa; */
+  border-top: 1px solid #e9ecef;
+}
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.footer-column h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: #e9ecef;
+}
+.footer-column ul {
+  padding: 0;
+  list-style: none;
+}
+.footer-column ul li {
+  margin-bottom: 0.5rem;
+}
+.footer-column ul li a {
+  color: #6c757d;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-column ul li a:hover {
+  color: #198754;
+  text-decoration: underline;
+}
+.copyright {
+  margin-top: 2rem;
+  color: #adb5bd;
+  font-size: 0.95rem;
+}
+@media (max-width: 767.98px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .footer-column {
+    text-align: center;
+  }
+}

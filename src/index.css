@@ -1,0 +1,13 @@
+/* import google font: hanuman */
+@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@300;400;700&display=swap');
+
+* {
+    font-family: 'Hanuman', sans-serif;
+}
+
+body {
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
+    background-color: rgba(144, 238, 144, 0.25) !important;
+}

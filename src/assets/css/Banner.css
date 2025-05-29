@@ -1,0 +1,36 @@
+/* Banner Section Styling */
+.banner-section {
+  width: 100vw;
+  min-height: 350px;
+  background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('../images/Pizza1.jpg') center/cover no-repeat;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;
+}
+.banner-content {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.banner-content h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.banner-content p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+@media (max-width: 767.98px) {
+  .banner-section {
+    min-height: 220px;
+    padding: 30px 0;
+  }
+  .banner-content h1 {
+    font-size: 2rem;
+  }
+  .banner-content p {
+    font-size: 1rem;
+  }
+}
