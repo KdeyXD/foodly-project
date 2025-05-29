@@ -1,6 +1,7 @@
 import React from 'react'
 import { Navbar, Nav, Form, FormControl, Button } from 'react-bootstrap'
-import '../assets/css/NavBar.css' // Assuming you have a CSS file for styling
+import '../assets/css/NavBar.css'
+import { Link } from 'react-router-dom'
 const NavBar = () => {
   return (
     <Navbar expand="lg" className="navbar px-4">
@@ -21,8 +22,8 @@ const NavBar = () => {
           <Nav.Link href="#cart" className="d-flex align-items-center">
             <span role="img" aria-label="cart">🛒</span>
           </Nav.Link>
-          <Nav.Link href="#profile" className="d-flex align-items-center">
-            <span role="img" aria-label="user">👤</span>
+          <Nav.Link as={Link} to="/profile" className="d-flex align-items-center">
+            <i className='bi bi-person fs-4'></i>
           </Nav.Link>
         </div>
       </div>
