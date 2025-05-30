@@ -20,6 +20,17 @@ const users = [
     profilePicture: 'https://via.placeholder.com/150', // Placeholder
     gender: 'Female',
     password: 'password456' // Example password, not recommended to store in plain text
+  },
+  {
+    id: 3,
+    name: 'KdeyXD',
+    email: 'xdkdey@gmail.com',
+    address: 'St282 Phnom Penh, Cambodia',
+    birthDate: '2005-02-25',
+    phone: '012-345-6789',
+    profilePicture: 'https://via.placeholder.com/150', // Placeholder
+    gender: 'Male',
+    password: '12345' // Example password, not recommended to store in plain text
   }
 ];
 
